@@ -1,0 +1,10 @@
+mkdir mvn-project
+  500  cd mvn-project
+  501  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+  502  ll
+  503  cd my-app
+  504  tree
+  505  mvn package
+  506  java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
+  507  history
+
